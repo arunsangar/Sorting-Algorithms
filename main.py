@@ -1,9 +1,19 @@
 from SortingAlgorithms.selection_sort import selection_sort
+from SortingAlgorithms.bubble_sort import bubble_sort
 from Utilities.helper import *
 
 if __name__ == '__main__':
-    list = get_random_list(100, 0, 100)
+    # selection sort
+    list = get_random_list(30, 0, 200)
+    selection_sort(list)
+    print(list)
 
-    new_list = selection_sort(list)
+    # bubble sort iterative
+    list = get_random_list(30, 0, 200)
+    bubble_sort(list, 'iterative')
+    print(list)
 
-    print(new_list)
+    # bubble sort recursive
+    list = get_random_list(30, 0, 200)
+    bubble_sort(list, 'recursive')
+    print(list)

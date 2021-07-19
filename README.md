@@ -1,4 +1,5 @@
 # Sorting-Algorithms
+
 Personal implementation of sorting algorithms
 
 ---
@@ -13,15 +14,16 @@ Personal implementation of sorting algorithms
 
 **Implmented sorting algorithm:**
 
-None
+| Algorithm               | Time Complexity (Best) | Time Complexity (Average) | Time Complexity (Worst) |
+| ----------------------- | ---------------------- | ------------------------- | ----------------------- |
+| Selection sort          | O(n<sup>2</sup>)       | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
+| Bubble sort (iterative) | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
+| Bubble sort (recursive) | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
 
 ---
 
 TODO:
 
-- Selection sort
-- Bubble sort (iterative)
-- Bubble sort (recursive)
 - Insertion sort (iterative)
 - Insertion sort (recursive)
 - Merge sort (iterative)
