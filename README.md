@@ -21,13 +21,13 @@ Personal implementation of sorting algorithms
 | Bubble sort (recursive)    | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
 | Insertion sort (iterative) | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
 | Insertion sort (recursive) | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
+| Merge sort (iterative)     | O(nlog(n))             | O(nlog(n))                | O(nlog(n))              |
+| Merge sort (recursive)     | O(nlog(n))             | O(nlog(n))                | O(nlog(n))              |
 
 ---
 
 TODO:
 
-- Merge sort (iterative)
-- Merge sort (recursive)
 - Quick sort (iterative)
 - Quick sort (recursive)
 - Heap sort

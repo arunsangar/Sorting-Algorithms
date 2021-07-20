@@ -1,6 +1,7 @@
 from SortingAlgorithms.selection_sort import selection_sort
 from SortingAlgorithms.bubble_sort import bubble_sort
 from SortingAlgorithms.insertion_sort import insertion_sort
+from SortingAlgorithms.merge_sort import merge_sort
 from Utilities.helper import *
 
 if __name__ == '__main__':
@@ -32,4 +33,16 @@ if __name__ == '__main__':
     list = get_random_list(30, 0, 200)
     print('Insertion Sort Recursive\nOriginal: ', list)
     insertion_sort(list, 'recursive')
+    print('Sorted:   ', list, '\n')
+
+    # merge sort iterative
+    list = get_random_list(30, 0, 200)
+    print('Merge Sort Iterative\nOriginal: ', list)
+    merge_sort(list, 'iterative')
+    print('Sorted:   ', list, '\n')
+
+    # merge sort recursive
+    list = get_random_list(30, 0, 200)
+    print('Merge Sort Recursive\nOriginal: ', list)
+    merge_sort(list, 'recursive')
     print('Sorted:   ', list, '\n')
