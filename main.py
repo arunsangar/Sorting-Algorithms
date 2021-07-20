@@ -1,19 +1,35 @@
 from SortingAlgorithms.selection_sort import selection_sort
 from SortingAlgorithms.bubble_sort import bubble_sort
+from SortingAlgorithms.insertion_sort import insertion_sort
 from Utilities.helper import *
 
 if __name__ == '__main__':
     # selection sort
     list = get_random_list(30, 0, 200)
+    print('Selection Sort\nOriginal: ', list)
     selection_sort(list)
-    print(list)
+    print('Sorted:   ', list, '\n')
 
     # bubble sort iterative
     list = get_random_list(30, 0, 200)
+    print('Bubble Sort Iterative\nOriginal: ', list)
     bubble_sort(list, 'iterative')
-    print(list)
+    print('Sorted:   ', list, '\n')
 
     # bubble sort recursive
     list = get_random_list(30, 0, 200)
+    print('Bubble Sort Recursive\nOriginal: ', list)
     bubble_sort(list, 'recursive')
-    print(list)
+    print('Sorted:   ', list, '\n')
+
+    # insertion sort iterative
+    list = get_random_list(30, 0, 200)
+    print('Insertion Sort Iterative\nOriginal: ', list)
+    insertion_sort(list, 'iterative')
+    print('Sorted:   ', list, '\n')
+
+    # insertion sort recursive
+    list = get_random_list(30, 0, 200)
+    print('Insertion Sort Recursive\nOriginal: ', list)
+    insertion_sort(list, 'recursive')
+    print('Sorted:   ', list, '\n')

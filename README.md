@@ -12,20 +12,20 @@ Personal implementation of sorting algorithms
 
 ---
 
-**Implmented sorting algorithm:**
+**Implemented sorting algorithms:**
 
-| Algorithm               | Time Complexity (Best) | Time Complexity (Average) | Time Complexity (Worst) |
-| ----------------------- | ---------------------- | ------------------------- | ----------------------- |
-| Selection sort          | O(n<sup>2</sup>)       | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
-| Bubble sort (iterative) | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
-| Bubble sort (recursive) | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
+| Algorithm                  | Time Complexity (Best) | Time Complexity (Average) | Time Complexity (Worst) |
+| -------------------------- | ---------------------- | ------------------------- | ----------------------- |
+| Selection sort             | O(n<sup>2</sup>)       | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
+| Bubble sort (iterative)    | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
+| Bubble sort (recursive)    | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
+| Insertion sort (iterative) | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
+| Insertion sort (recursive) | O(n)                   | O(n<sup>2</sup>)          | O(n<sup>2</sup>)        |
 
 ---
 
 TODO:
 
-- Insertion sort (iterative)
-- Insertion sort (recursive)
 - Merge sort (iterative)
 - Merge sort (recursive)
 - Quick sort (iterative)
