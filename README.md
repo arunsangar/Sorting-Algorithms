@@ -25,13 +25,13 @@ Personal implementation of sorting algorithms
 | Merge sort (recursive)     | O(nlog(n))             | O(nlog(n))                | O(nlog(n))              |
 | Quick sort (iterative)     | O(nlog(n))             | O(nlog(n))                | O(n<sup>2</sup>)        |
 | Quick sort (recursive)     | O(nlog(n))             | O(nlog(n))                | O(n<sup>2</sup>)        |
+| Counting sort              | O(n+k)                 | O(n+k)                    | O(n+k)                  |
 
 ---
 
 TODO:
 
 - Heap sort
-- Counting sort
 - Radix sort
 - Bucket sort
 - Shell sort
